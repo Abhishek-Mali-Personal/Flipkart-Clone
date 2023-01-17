@@ -384,11 +384,17 @@ a.no-underline-nav:hover {
         margin-right: 0rem;
     }
 }
-@media(max-width:990px) {
+@media(max-width:991px) {
     .form-control-feedback{
         width: 40.375rem;
     }
     .font-color {
-        margin-left: 0.25rem;
+        margin-left: 1.25rem;
+    }
+    
+    .btn.border-zero {
+        margin-left: -5.25rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
     }
 }
